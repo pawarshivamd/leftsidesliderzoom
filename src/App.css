@@ -8,7 +8,7 @@
   --dark:#212a3e;
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 section{
   margin: 50px 0px;
@@ -70,19 +70,30 @@ section{
 .next {
 
   top: 380px !important;
+  left: 20px !important;
+  background-color:var(--dark);
+  padding: 20px;
 
 }
 
 .next::after {
   rotate: 90deg;
+  font-size: 20px !important;
+  color: var(--light);
+
 }
 
 .prev {
   top: 10px !important;
+  left: 20px !important;
+  background-color:var(--dark);
+  padding: 20px;
 }
 
 .prev::after {
   rotate: 90deg;
+  font-size: 20px !important;
+  color: var(--light);
 }
 
 .xzoom_part  .btn-contain p {
@@ -102,9 +113,9 @@ section{
   margin-left: 0 !important;
 }
 .btn-body {
-  padding: 5px 10px;
+  padding: 5px 0px;
   /* border: 1px solid black; */
-  margin-left: 10px;
+  /* margin-left: 10px; */
   cursor: pointer;
 }
  .btn-views {
@@ -198,7 +209,8 @@ section{
   .next {
 
     top:50px !important;
-  
+    left: auto !important;
+    
   }
   
   .next::after {
@@ -207,6 +219,7 @@ section{
   
   .prev {
     top: 50px !important;
+    right: auto !important;
   }
   
   .prev::after {

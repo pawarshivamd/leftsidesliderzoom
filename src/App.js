@@ -69,9 +69,9 @@ function App() {
                 <div className='col-lg-10 col-md-12 col-sm-12 order-lg-2 order-1 order-md-1'>
                   <div className='slider-section'>
                     <div className='zoom-section'>
-                      <ReactImageMagnify className='img-' {...{
+                      <ReactImageMagnify  {...{
                         smallImage: {
-                          alt: 'Wristwatch by Ted Baker London',
+                          alt: '',
                           isFluidWidth: true,
                           src: activeimg,
                           width: 400, // set the desired width
