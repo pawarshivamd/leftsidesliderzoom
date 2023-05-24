@@ -95,46 +95,46 @@ function App() {
           {/* col-6 right section for text */}
           <div className='col-lg-6 col-md-6 col-sm-12' >
             <div className='right-section'>
-              <div class="xzoom_part">
+              <div className="xzoom_part">
 
                 <h4>MuscleBlaze Creatine Monohydrate, 400 g (0.88 lb) <span> <iconify-icon icon="mdi:lacto-vegetarian"
-                  class="veg-nonveg-icon"></iconify-icon></span> </h4>
+                  className="veg-nonveg-icon"></iconify-icon></span> </h4>
 
 
                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vero temporibus, accusamus
                   magnam maxime quis </h6>
-                <p class="star"><i class="fas fa-star"></i>4.5
+                <p className="star"><i className="fas fa-star"></i>4.5
                 </p>
-                <h3>₹1289 <span>MRP:<del class="ms-1">1489</del></span> </h3>
-                <div class=" btn-contain mb-2">
+                <h3>₹1289 <span>MRP:<del className="ms-1">1489</del></span> </h3>
+                <div className=" btn-contain mb-2">
                   <p>Weight</p>
-                  <div class="btn-body">
-                    <p class="btn-views btn-views-1"><a href="/">5kg</a></p>
-                    <p class="btn-views"><a href="/">10kg</a></p>
+                  <div className="btn-body">
+                    <p className="btn-views btn-views-1"><a href="/">5kg</a></p>
+                    <p className="btn-views"><a href="/">10kg</a></p>
                   </div>
                 </div>
-                <div class=" btn-contain mb-2">
+                <div className=" btn-contain mb-2">
                   <p>Flavour</p>
-                  <div class="btn-body">
-                    <p class="btn-views btn-views-1"><a href="/">Chocolate</a></p>
-                    <p class="btn-views"><a href="/">Vanila</a></p>
-                    <p class="btn-views"><a href="/">Strawberry</a></p>
+                  <div className="btn-body">
+                    <p className="btn-views btn-views-1"><a href="/">Chocolate</a></p>
+                    <p className="btn-views"><a href="/">Vanila</a></p>
+                    <p className="btn-views"><a href="/">Strawberry</a></p>
                   </div>
                 </div>
-                <div class=" btn-contain">
+                <div className=" btn-contain">
                   <p>Color</p>
-                  <div class="btn-body">
-                    <p class="btn-views  btn-views-1"><a href="/">Blue</a></p>
-                    <p class="btn-views"><a href="/">Black</a></p>
-                    <p class="btn-views"><a href="/">Red</a></p>
+                  <div className="btn-body">
+                    <p className="btn-views  btn-views-1"><a href="/">Blue</a></p>
+                    <p className="btn-views"><a href="/">Black</a></p>
+                    <p className="btn-views"><a href="/">Red</a></p>
                   </div>
                 </div>
-                <div class="d-flex align-items-center mt-3">
-                  <label for=""> Qty: </label>
-                  <input type="number" value="1" class="form-control" />
-                  <div class="btn-xzone-body ">
+                <div className="d-flex align-items-center mt-3">
+                  <label htmlFor=""> Qty: </label>
+                  <input type="number" defaultValue="1" className="form-control" />
+                  <div className="btn-xzone-body ">
                     <a href="cart-page.html">
-                      <p class="btn-xzone"> <i class="bi bi-cart2"></i><span> Add To Cart
+                      <p className="btn-xzone"> <i className="bi bi-cart2"></i><span> Add To Cart
                       </span></p>
                     </a>
                   </div>
